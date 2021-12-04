@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "백선영"
+  },
+  "text": {
+    "more": "\u003cp\u003e\n캐릭터와 협업한 산업과 기업의 엣지를 통합한 게피 시각화 자료입니다.\u003c/br\u003e\n이 결과를 통해 어떤 캐릭터가 제일 많은 협업을 이루었는지 알 수 있고, 더 나아가 어떤 산업에서 강세를 보였는 지 알 수 있습니다.\u003c/br\u003e\n\u003c/p\u003e\n\u003cp\u003e\n노드 개수: 260\u003c/br\u003e\n엣지 개수: 321\n\u003c/p\u003e\n\u003cp\u003e\nUndirected Graph\n\u003c/p\u003e\n",
+    "intro": "캐릭터와 협업한 산업과 기업의 엣지를 통합한 게피 시각화 자료입니다.",
+    "title": "캐릭터 협업 관계망"
+  },
+  "legend": {
+    "edgeLabel": "캐릭터, 산업, 기업의 연결성",
+    "colorLabel": "속성별",
+    "nodeLabel": "캐릭터, 산업, 기업"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
